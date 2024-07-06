@@ -310,8 +310,7 @@ text-align: center;
 
 .our-portfolio {
     background-color:#FFFFFF;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px 0;
 }
 .our-portfolio-title {
     font-weight: 700;
@@ -357,14 +356,14 @@ text-align: center;
     border-top: none;
 }
 .sub-it-textfive {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .sub-it-textsix {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 
