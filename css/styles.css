@@ -336,13 +336,36 @@ text-align: center;
 }
 .sub-it-textone {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
+.sub-it-texttwo {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
-
-
-
-
+.sub-it-textthree {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.sub-it-textfour {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.sub-it-textfive {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+.sub-it-textsix {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
 
 
 
@@ -352,6 +375,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .our-portfolio-item-text {
