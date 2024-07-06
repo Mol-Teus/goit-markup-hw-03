@@ -119,13 +119,13 @@ text-decoration: none;
 .container-hero-button {
  padding-top: 188px; 
  padding-bottom: 292px;
-
+  
  text-align: center;
 }
 .order-btn-container {
-   border-radius: 4px;
-   padding: 16px 32px;
-    
+   
+   
+    padding: 16px 32px;
    margin-top: 48px; 
    text-align: center;
    border-radius: 4px;
@@ -158,6 +158,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #4D5AE5;
 color:#FFFFFF;
+padding: 16px 32px;
+    margin-top: 48px;
+    text-align: center;
+    border-radius: 4px;
  
 }
 .features-subtitle {
