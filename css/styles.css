@@ -115,6 +115,7 @@ text-decoration: none;
 
 .main-title {
     background-color:#2e2f42; 
+    padding: 188px 0;
 }
 
  
@@ -126,7 +127,7 @@ text-decoration: none;
         letter-spacing: 0.02em;
         background-color:#2e2f42;
         color: #fff;
-        max-width: 496px
+        max-width: 496px;
          
 }
 
@@ -138,10 +139,10 @@ text-decoration: none;
 }
  
 .hero-button {
-    padding: 188px 0; 
+     
     max-width: 608px;
     margin: 0 auto ;
- 
+    
 }
 
 .order-btn {
@@ -164,7 +165,7 @@ padding: 16px 32px;
 /*-----Features------*/
 
 
-.visually-hidden {
+h2 .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -260,9 +261,13 @@ letter-spacing: 0.02em;
 color: #434455;
  
 }
+.our-team-img {
+
+    display: block;
+}
 .our-team-list {
     background-color: #FFFFFF;
-    display: block;
+    
 }
 /*-------------Our Portfolio-----------*/
 
