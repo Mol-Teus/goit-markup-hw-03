@@ -28,7 +28,7 @@ text-decoration: none;
  margin: 0 auto;
 }
 .section {
-    padding: 120px;
+    padding:120px;
 }
 /*-----header--------*/
 
@@ -123,11 +123,13 @@ text-decoration: none;
  text-align: center;
 }
 .order-btn-container {
-  
-   padding-top: 48px;
-   
+   border-radius: 4px;
+   padding: 16px 32px;
+    
+   margin-top: 48px; 
    text-align: center;
    border-radius: 4px;
+     
 }
     
 
@@ -181,8 +183,9 @@ color:#FFFFFF;
 
 .our-team-item {
 background-color: #FFFFFF;
-
 }
+
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
