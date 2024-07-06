@@ -183,7 +183,11 @@ width: 264px;
 height: 104px;
  
 }  
-
+.features-list {
+display: block;
+text-decoration: none;
+justify-content: space-between;
+}
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
