@@ -164,13 +164,21 @@ padding: 16px 32px;
 /*-----Features------*/
 
 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .container-features {
-    padding-top: 120px;
-    padding-bottom:120px;
-    padding-left:156px;
-    padding-right: 156px;
+    padding: 120px;   
     max-width: 578px;
     margin: 0 auto;
     display: inline-block;
@@ -184,7 +192,12 @@ width: 264px;
 height: 104px;
  
 }  
- 
+.features-list {
+    margin-bottom: 8px;
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
 
 .features-subtitle {
     font-weight: 500;
