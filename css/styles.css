@@ -138,8 +138,7 @@ text-decoration: none;
 }
  
 .hero-button {
-    padding-top: 188px; 
-    padding-bottom: 188px;
+    padding: 188px 0; 
     max-width: 608px;
     margin: 0 auto ;
  
@@ -160,6 +159,7 @@ padding: 16px 32px;
     min-width: 169px;
     height: 56px;
     border: none;
+    cursor: pointer;
 }
 /*-----Features------*/
 
@@ -297,6 +297,7 @@ color: #434455;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
  .footer-logo {
   display: inline-block;
@@ -309,7 +310,7 @@ color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-     margin-bottom: 16px;
+      
  }
     
 .footer-subtitle {
