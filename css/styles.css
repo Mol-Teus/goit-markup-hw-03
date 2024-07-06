@@ -27,6 +27,9 @@ text-decoration: none;
  padding: 0 15px;
  margin: 0 auto;
 }
+.section {
+    padding: 120px;
+}
 /*-----header--------*/
 
 .page-header {
@@ -111,8 +114,23 @@ text-decoration: none;
 /*----------------H1 section---------------*/
 
 .main-title {
-    background-color:#2e2f42;
+    background-color:#2e2f42; 
 }
+.container-hero-button {
+ padding-top: 188px; 
+ padding-bottom: 292px;
+
+ text-align: center;
+}
+.order-btn-container {
+  
+   padding-top: 48px;
+   
+   text-align: center;
+   border-radius: 4px;
+}
+    
+
 .page-title {
         font-weight: 700;
         font-size: 56px;
@@ -248,6 +266,11 @@ color: #434455;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+ .footer-logo {
+  display: inline-block;
+  padding: 16px;
+  margin:auto;
+ }
  .footer-logo .logo-part {
     color: #f4f4fd;
     font-weight: 500;
