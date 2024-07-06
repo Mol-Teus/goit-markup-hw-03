@@ -117,17 +117,14 @@ text-decoration: none;
     background-color:#2e2f42; 
 }
 .container-hero-button {
- padding-top: 188px; 
- padding-bottom: 292px;
+    padding-top: 188px; 
+    padding-bottom: 292px;
     max-width: 608px;
-    
     margin: 0 auto;
  
 }
 .order-btn-container {
-   
-   
-    padding: 16px 32px;
+   padding: 16px 32px;
    margin-top: 24px; 
    text-align: center;
    border-radius: 4px;
@@ -166,6 +163,27 @@ padding: 16px 32px;
     border-radius: 4px;
  
 }
+/*-----Features------*/
+
+.container-features {
+    padding-top: 120px;
+    padding-bottom:120px;
+    padding-left:156px;
+    padding-right: 156px;
+    max-width: 578px;
+    margin: 0 auto;
+    display: inline-block;
+    
+}
+
+
+ .features-item {
+box-sizing: border-box;
+width: 264px;
+height: 104px;
+/*display:inline-flex;*/
+}  
+
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
