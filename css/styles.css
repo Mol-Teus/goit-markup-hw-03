@@ -168,18 +168,7 @@ padding: 16px 32px;
 /*-----Features------*/
 
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+ 
 
 .features {
     padding: 120px 0;
@@ -195,15 +184,15 @@ padding: 16px 32px;
 
  .features-item {
  box-sizing: border-box;
- width: 264px;
+ /*width: 264px;*/
  height: 104px;
-  
+ width: calc((100% - 72px) / 4);
 }  
 .features-list {
     margin-bottom: 8px;
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    
 }
 
 .features-subtitle {
@@ -221,6 +210,21 @@ padding: 16px 32px;
     color: #434455;
      
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
 
 /* -------Our Team ----------*/
 
