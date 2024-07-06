@@ -181,17 +181,17 @@ h2 .visually-hidden {
 .container-features {
     padding: 120px;   
     max-width: 578px;
-    margin: 0 auto;
+    margin-bottom: 8px;
     display: inline-block;
     
 }
  
 
  .features-item {
-box-sizing: border-box;
-width: 264px;
-height: 104px;
- 
+ box-sizing: border-box;
+ width: 264px;
+ height: 104px;
+  
 }  
 .features-list {
     margin-bottom: 8px;
