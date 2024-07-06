@@ -175,13 +175,13 @@ padding: 16px 32px;
     display: inline-block;
     
 }
-
+ 
 
  .features-item {
 box-sizing: border-box;
 width: 264px;
 height: 104px;
-/*display:inline-flex;*/
+ 
 }  
 
 .features-subtitle {
@@ -190,23 +190,25 @@ height: 104px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+     
 }
 .features-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+     
 }
 
 /* -------Our Team ----------*/
 
 
 .our-team {
-    background-color:#F4F4FD;
+background-color:#F4F4FD;
 }
 
 .our-team-item {
-background-color: #FFFFFF;
+background-color: #F4F4FD;
 }
 
 
