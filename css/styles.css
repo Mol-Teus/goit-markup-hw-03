@@ -116,7 +116,9 @@ text-decoration: none;
 .main-title {
     background-color:#2e2f42; 
     padding: 188px 0;
-    display: block;
+}
+img {
+    display: block
 }
 
  
@@ -166,7 +168,7 @@ padding: 16px 32px;
 /*-----Features------*/
 
 
-h2 .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -179,10 +181,13 @@ h2 .visually-hidden {
     overflow: hidden;
 }
 
-.container-features {
+.features {
+    padding: 120px 0;
+}
+ .container-features {
     padding: 120px;   
     max-width: 578px;
-    margin-bottom: 8px;
+    
     display: inline-block;
     
 }
@@ -207,7 +212,7 @@ h2 .visually-hidden {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-     
+    margin-bottom: 8px;
 }
 .features-item-text {
     font-size: 16px;
