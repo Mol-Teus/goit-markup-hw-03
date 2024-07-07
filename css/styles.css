@@ -118,7 +118,9 @@ text-decoration: none;
     padding: 188px 0;
 }
 img {
-    display: block
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
  
@@ -299,8 +301,9 @@ text-align: center;
  
 }
 .our-team-img {
-
     display: block;
+    max-width: 100%;
+     height: auto;
 }
 .our-team-list {
     background-color: #F4F4FD;
