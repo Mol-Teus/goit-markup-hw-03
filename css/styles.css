@@ -159,6 +159,7 @@ img {
     color:#FFFFFF;
     padding: 16px 32px;
     margin-top: 48px ;
+    margin-left: 230px;
     text-align: center;
     border-radius: 4px;
     display: block;
@@ -239,25 +240,25 @@ width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
 
-.teamone {
+.teammemb {
 padding: 32px 0;
 text-align: center;
 margin-bottom: 8px;
 background-color: #FFFFFF;
 }
-.teamtwo {
+.teammemb {
 padding: 32px 0;
 text-align: center;
 margin-bottom: 8px;
 background-color: #FFFFFF;
 }
-.teamthree {
+.teammemb {
 padding: 32px 0;
 text-align: center;
 margin-bottom: 8px;
 background-color: #FFFFFF;
 }
-.teamfour {
+.teammemb {
 padding: 32px 0;
 text-align: center;
 margin-bottom: 8px;
@@ -311,7 +312,8 @@ text-align: center;
 
 .our-portfolio {
     background-color:#FFFFFF;
-    padding: 120px 0 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .our-portfolio-title {
     font-weight: 700;
