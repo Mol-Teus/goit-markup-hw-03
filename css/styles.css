@@ -410,6 +410,7 @@ color: #434455;
   display: inline-block;
   padding: 16px;
   margin-bottom: 16px;
+  
  }
  .footer-logo .logo-part {
     color: #f4f4fd;
@@ -423,11 +424,12 @@ color: #434455;
 .footer-subtitle {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.05;
     text-align:inherit;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 496px;
+
      
 }
 .page-footer {
