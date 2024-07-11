@@ -25,7 +25,8 @@ text-decoration: none;
 .container {
  max-width: 1158px;
  padding: 0 15px;
- margin: 0 auto;
+ margin: 0 auto ;
+ 
 }
 .section {
     padding:120px;
@@ -116,6 +117,8 @@ text-decoration: none;
 .main-title {
     background-color:#2e2f42; 
     padding: 188px 0;
+    display: flex;
+    justify-content: center;
 }
 img {
     display: block;
@@ -123,7 +126,6 @@ img {
     height: auto;
 }
 
- 
 .page-title {
         font-weight: 700;
         font-size: 56px;
@@ -134,17 +136,15 @@ img {
         color: #fff;
         max-width: 496px;
          
+         
 }
 
 .order-btn:hover,
 .order-btn:focus {
     background-color: #404BBF;
-     
     cursor: pointer;
 }
  
- 
-
 .order-btn {
     font-weight: 500;
     font-size: 16px;
@@ -153,15 +153,14 @@ img {
     background-color: #4D5AE5;
     color:#FFFFFF;
     padding: 16px 32px;
-    margin-top: 48px ;
-   
+    margin-top: 48px  ;
     text-align: center;
     border-radius: 4px;
     display: block;
-    min-width: 169px;
     height: 56px;
     border: none;
     cursor: pointer;
+     
 }
 /*-----Features------*/
 
