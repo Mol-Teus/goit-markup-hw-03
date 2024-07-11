@@ -13,7 +13,7 @@ ul,ol {
     padding: 0;
 }
 
-h1,h2,h3,h3,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p {
   margin: 0;
 }
 
@@ -56,7 +56,7 @@ text-decoration: none;
 }
 
 .header-logo {
-   padding: 24px 0;
+    
    margin-right:76px;
 }
 
@@ -139,16 +139,11 @@ img {
 .order-btn:hover,
 .order-btn:focus {
     background-color: #404BBF;
-    color: #2e2f42;
+     
     cursor: pointer;
 }
  
-.hero-button {
-     
-    max-width: 608px;
-    margin: 0 auto ;
-    
-}
+ 
 
 .order-btn {
     font-weight: 500;
@@ -159,7 +154,7 @@ img {
     color:#FFFFFF;
     padding: 16px 32px;
     margin-top: 48px ;
-    margin-left: 169px;
+   
     text-align: center;
     border-radius: 4px;
     display: block;
@@ -177,20 +172,17 @@ img {
     padding: 120px 0;
 }
  .container-features {
-    padding: 120px;   
-    max-width: 578px;
+    
     display: flex;
     gap: 24px;
 }
  
  .features-item {
  box-sizing: border-box;
- /*width: 264px;*/
- height: 104px;
  width: calc((100% - 72px) / 4);
 }  
 .features-list {
-    margin-bottom: 8px;
+     
     display: flex;
     gap: 24px;
 }
@@ -236,32 +228,32 @@ padding: 120px 0;
 
 .our-team-item {
 background-color: #F4F4FD;
-width: calc((100% - 72px) / 4);
+ 
 border-radius: 0px 0px 4px 4px;
 }
 
 .teammemb {
 padding: 32px 0;
 text-align: center;
-margin-bottom: 8px;
+ 
 background-color: #FFFFFF;
 }
 .teammemb {
 padding: 32px 0;
 text-align: center;
-margin-bottom: 8px;
+ 
 background-color: #FFFFFF;
 }
 .teammemb {
 padding: 32px 0;
 text-align: center;
-margin-bottom: 8px;
+ 
 background-color: #FFFFFF;
 }
 .teammemb {
 padding: 32px 0;
 text-align: center;
-margin-bottom: 8px;
+ 
 background-color: #FFFFFF;
 }
 
@@ -325,7 +317,7 @@ text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+     
 }
 .our-portfolio-list {
     display: flex;
@@ -407,8 +399,8 @@ color: #434455;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 16px;
+     
+     
 }
  .footer-logo {
   display: inline-block;
@@ -428,8 +420,10 @@ color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    text-align:inherit;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 496px;
 }
 .page-footer {
     background-color:#2e2f42;
