@@ -162,7 +162,7 @@ img {
     height: 56px;
     border: none;
     cursor: pointer;
-     
+    min-width: 169px;
 }
 /*-----Features------*/
 
@@ -318,7 +318,7 @@ text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-     
+    margin-bottom: 72px;
 }
 .our-portfolio-list {
     display: flex;
@@ -424,12 +424,14 @@ color: #434455;
 .footer-subtitle {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     text-align:inherit;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 496px;
-
+     
+     
+    
      
 }
 .page-footer {
